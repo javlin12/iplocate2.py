@@ -24,7 +24,7 @@ response=requests.get(url)
 	
 data = json.loads(response.content)
 	
-print(data)
+#print(data)
 	
 	
 print("\t[+] IP\t\t\t", data["query"])
